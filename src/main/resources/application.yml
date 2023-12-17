@@ -10,7 +10,7 @@ spring:
   datasource:
     driver-class-name: org.postgresql.Driver
     # For correct works with docker-compose, we need to change "localhost" to a service name, take from docker-compose.yml
-    #url: jdbc:postgresql://db:5432/automobiles
+#    url: jdbc:postgresql://db:5432/automobiles
     url: jdbc:postgresql://localhost:5432/automobiles
     username: postgres
     password: postgres
