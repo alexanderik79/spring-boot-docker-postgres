@@ -211,6 +211,8 @@ public class AutomobileRestController implements AutomobileResource, AutomobileO
 //            return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
 //        }
 //    }
+
+    //переделал так чтоб бизнес логика была в сервисе
     @Override
     @PostMapping("/message")
     @ResponseStatus(HttpStatus.CREATED)
