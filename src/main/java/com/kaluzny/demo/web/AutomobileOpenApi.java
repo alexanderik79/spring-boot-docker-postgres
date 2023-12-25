@@ -62,5 +62,4 @@ public interface AutomobileOpenApi extends AutomobileResource {
     String removeAutomobileById(
             @Parameter(description = "Id of the Automobile to be delete. Cannot be empty.", required = true) Long id);
 
-
 }
